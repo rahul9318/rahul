@@ -11,6 +11,7 @@ color:white;}
 .card-title{
 color:white;
 }
+
 .instagram{
 padding-right:10px;
 padding-left:-10px;}
@@ -18,33 +19,56 @@ padding-left:-10px;}
 .house{
 position:relative;
 left:-90px;}
-
+c-nav-list__item--work{
+font-size:33px;
+}
+.c-nav-list__item--infoo-fle{
+    font-size:50px;
+    position:relative;
+    left:-30px;
+    }
+.projects{
+font-size:20px;
+}
 @media screen and (max-width: 660px) {
 
-  /* CSS for screens that are 320 pixels or less will be put in this section */
-  .house{
+.projects{
+        font-size:13px;
+
+    }
+      .house{
 
     position:relative;
-    left:-18px;
+    left:-15px;
     }
-
     .instagram{
 
     padding-right:0px;
     padding-left:-50px;}
     }
+
+
     .c-nav-list__item--work{
-    position:relative;
-    left:-20px;
-    }
-    .c-nav-list__item--infoo-fle{
+
     position:relative;
     left:-30px;
+    }
+     .c-nav-list__item--infoo-fle{
+    position:relative;
+    left:-35px;
     }
     .c-nav-list__item--contact{
     position:relative;
     left:-40px;
     }
+
+
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+
+
+
+
+
 
 }
 @charset "UTF-8";
